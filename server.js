@@ -19,6 +19,7 @@ app.use("/api/categories", categoryRoutes);
 app.use("/api/products", productRoutes);
 
 // Swagger
+
 swaggerDocs(app);
 
 const PORT = process.env.PORT || 5000;
