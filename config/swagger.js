@@ -11,9 +11,15 @@ const options = {
     },
     servers: [
       {
+        url: "https://web-bot-node-npbl.onrender.com/api",
+        description: "Building",
+      },
+      {
         url: "http://localhost:5000/api",
         description: "Building Server",
-      },
+      }
+
+
     ],
   },
   apis: ["./routes/*.js"], // router fayllardagi @swagger kommentlarini o‘qiydi
